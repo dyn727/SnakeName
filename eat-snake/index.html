@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Eat Snake - 贪吃蛇</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="game-container">
+    <header>
+      <h1>🐍 Eat Snake</h1>
+      <p class="subtitle">使用方向键控制，空格键开始/暂停</p>
+    </header>
+
+    <main>
+      <canvas id="game" width="400" height="400" aria-label="贪吃蛇画布"></canvas>
+      <div class="hud">
+        <div>得分：<span id="score">0</span></div>
+        <div>最高分：<span id="highScore">0</span></div>
+        <div>速度：<span id="speed">160</span>ms</div>
+      </div>
+      <div class="controls">
+        <button id="startBtn">开始</button>
+        <button id="pauseBtn">暂停</button>
+        <button id="restartBtn">重新开始</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>按方向键移动，空格键暂停/继续。更多信息见 README.md</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

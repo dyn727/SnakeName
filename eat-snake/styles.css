@@ -1,0 +1,17 @@
+:root{
+  --bg:#0f172a;
+  --panel:#0f172a;
+  --accent:#22c55e;
+  --muted:#cbd5e1;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,"Microsoft YaHei",sans-serif;background:linear-gradient(135deg,#0f172a,#1e293b);color:#f8fafc;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px}
+.game-container{max-width:780px;width:100%}
+header{margin-bottom:12px;text-align:center}
+canvas{display:block;margin:0 auto;border:2px solid #38bdf8;border-radius:8px;background:#020617}
+.hud{display:flex;gap:12px;justify-content:center;margin-top:8px}
+.controls{display:flex;gap:8px;justify-content:center;margin-top:12px}
+button{background:var(--accent);border:none;padding:8px 14px;border-radius:8px;color:#fff;cursor:pointer;font-weight:700}
+button:hover{opacity:.95}
+.subtitle{color:var(--muted)}
+footer{margin-top:14px;text-align:center;color:var(--muted);font-size:13px}
