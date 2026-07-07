@@ -1,11 +1,11 @@
-# eat-snake
+# snake-噶么
 
 简单的浏览器端贪吃蛇小游戏。
 
 目录结构：
 
 ```
-eat-snake/
+snake-噶么/
 ├── assets/        # 图片、音效等资源文件夹
 ├── index.html     # 页面骨架（只保留DOM结构）
 ├── styles.css     # 全部样式代码
